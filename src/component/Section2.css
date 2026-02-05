@@ -1,0 +1,204 @@
+
+.Apple{
+    width: 100%;
+    height: auto;
+    background-color: #845EC2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.Airpod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Airpod h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#845EC2;
+    text-shadow: 0px 0px 4px   white;
+}
+.Airpod span{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 31px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Airpod h3{
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 31px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+.pro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.pro-text h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+.pro-text p{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: white;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.btn button{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 21px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    background-color: #10B981;
+    border: none;
+    padding: 21px 70px;
+    border-radius: 10px;
+}
+.btn a{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: white;
+    text-decoration: none;
+}
+.pods{
+    display: flex;
+    gap: 32px;
+}
+.middle{
+    position: relative;
+    top: -25px;
+}
+.edge{
+    position: relative;
+    top: 50px;
+}
+.edge0{
+    position: relative;
+    top: 50px;
+}
+
+@media (max-width:992px) {
+    
+    .middle{
+    position: relative;
+    top: -50px;
+    }
+    .edge{
+    position: relative;
+    top: 10px;
+    }
+    
+    .edge0{
+        display: none;
+    }
+    .btn a{
+        display: none;
+    }
+    .pro-text h1{
+        font-size: 40px;
+    }
+    .pro-text p{
+        font-size: 19px;
+    }
+    .Airpod span{
+        font-size: 29px;
+    }
+    .Airpod h1{
+        font-size: 54px;
+    }
+    
+    .btn button{
+        font-size: 19px;
+        padding: 19px 50px;
+    }
+}
+@media (max-width:768px) {
+    
+    .middle{
+        display: none;
+    }
+    .btn a{
+        display: none;
+    }
+    .pro-text h1{
+        font-size: 36px;
+    }
+    .pro-text p{
+        font-size: 17px;
+    }
+    .Airpod span{
+        font-size: 27px;
+    }
+    .Airpod h1{
+        font-size: 50px;
+    }
+    
+    .btn button{
+        font-size: 17px;
+        padding: 16px 44px;
+    }
+}
+
+@media (max-width:480px) {
+    .edge{
+        width: 100%;
+        height: auto;
+    }
+    .pro-text h1{
+        font-size: 32px;
+    }
+    .pro-text p{
+        font-size: 15px;
+    }
+    .Airpod span{
+        font-size: 25px;
+    }
+    .Airpod h1{
+        font-size: 46px;
+    }
+    
+    .btn button{
+        font-size: 17px;
+        padding: 13px 30px;
+    }
+}

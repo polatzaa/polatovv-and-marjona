@@ -1,0 +1,197 @@
+
+.Discover{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 0;
+    overflow: hidden;
+} 
+.dis-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+.dis-text h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2B2626;
+}
+.dis-text p{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #2B2626;
+}   
+.dis-text button{
+    
+    display: flex;
+    align-items: center;
+    background-color: #10B981;
+    color: white;
+    gap: 15px;
+    padding: 22px 80px;
+    border-radius: 10px;
+    border: none;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 21px;
+    letter-spacing: 0%;
+}
+.users{
+    display: flex;
+
+}
+.views{
+    display: flex;
+}
+.user1{
+    position: relative;
+}
+.user2{
+    position: relative;
+    left: -25px;
+    z-index: 1;
+}
+.user3{
+    position: relative;
+    left: -50px;
+    z-index: 2;
+}
+
+.user4{
+    position: relative;
+    left: -75px;
+    z-index: 3;
+}
+
+.Beat{
+    display: flex;
+    align-items: end;
+}
+.play{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.play p{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color:#2B2626;
+}
+.headphone{
+    width: 272px;
+    height: 477px;
+    background-color: #ECFEF4;
+    border-radius: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin: 10px 0;
+}
+.headphone  h3{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 31px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2B2626;
+}
+.red{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.red h2{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #2B2626;
+}
+
+@media (max-width:992px) {
+    .play{
+        display: none;
+    }
+    .headphone{
+        width: 80%;
+    }
+    .headphone img{
+        width: 80%;
+    }
+    .red h2{
+        font-size: 34px;
+    }
+    .dis-text h1{
+        font-size: 60px;
+    }
+    .dis-text p{
+        font-size: 19px;
+    }
+    .dis-text button{
+        padding: 20px 70px;
+    }
+}
+@media (max-width:768px) {
+    .red h2{
+        display: none;
+    }
+    .views{
+        display: none;
+    }
+    
+    .dis-text h1{
+        font-size: 54px;
+    }
+    .dis-text p{
+        font-size: 15px;
+    }
+    .dis-text button{
+        padding: 18px 60px;
+    }
+    .headphone{
+        
+        height: 380px;
+    }
+}
+
+@media (max-width:480px) {
+    
+    .dis-text h1{
+        font-size: 54px;
+    }
+    .dis-text p{
+        font-size: 15px;
+    }
+    .dis-text button{
+        padding: 16px 50px;
+    }
+    .headphone{
+        
+        height: 350px;
+    }
+}

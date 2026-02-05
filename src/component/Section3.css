@@ -1,0 +1,147 @@
+
+.Seller{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    overflow: hidden;
+}
+.top{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 40px 0;
+}
+.sel-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 90px;
+    padding: 50px 0;
+}
+.sel-card{
+    width: 300px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boat-img1{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECFEF4;
+    border-radius: 15px;
+}
+.boat-img2{
+    width: 300px;
+    height: 400px;
+    background-color: #C9F2FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.boat-img3{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E5D5FF;
+    border-radius: 15px;
+}
+.sale{
+    width: 270px;
+    height: 110px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.add{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    background-color: #10B981;
+    border: none;
+    padding: 20px 88px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.pick{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: #10B981;
+    border: none;
+    color: white;
+    padding: 30px 25px;
+    border-radius: 100%;
+}
+.watch{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+    border: none;
+    background-color: transparent;
+}
+.Seller h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2B2626;
+}
+.sale h3{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #2B2626;
+}
+.sale h2{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 21px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2B2626;
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.price p{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 11px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #888888;
+}
